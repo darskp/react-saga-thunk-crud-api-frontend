@@ -1,0 +1,103 @@
+.mainadd {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    background-color: #e2e5e9;
+}
+
+.mainadd .itemadd h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    color: #031332;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 20px 0px 0px 0px;
+}
+
+.mainadd .itemadd {
+    height: 91vh;
+    width: 100%;
+}
+
+.mainadd .container {
+    width: 900px;
+    box-shadow: 5px 5px 10px rgb(173, 167, 167);
+    margin: 25px auto;
+    padding: 10px 20px 10px 2px;
+    /* align-items: center; */
+    background-color: #F6F6F6;
+    height:448px;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    border: 0px solid #03343a;
+    grid-template-columns: 50% 50%;
+}
+
+.mainadd .addusercontainer {
+    margin: 50px auto;
+    height: 460px;
+}
+
+.container img {
+    height: 280px;
+}
+
+
+.form input,
+.inputtextarea {
+    width: 380px;
+    height: 38px;
+    margin: 6px 0px;
+    font-size: 16px;
+    border: 0.4px solid #e2e5e9;
+    padding-left: 20px;
+    outline: none;
+    color: #031332;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 8px rgb(226, 221, 221);
+}
+
+.useraddform input {
+    margin: 12px 0px;
+}
+
+.inputtextarea {
+    resize: none;
+    width: 380px;
+    height: 68px;
+    padding: 5px 5px 5px 20px;
+}
+
+.shortDescription {
+    height: 50px;
+    padding: 5px 5px 5px 20px;
+
+}
+
+.form input:focus,
+.form .inputtextarea:focus {
+    border: 0.4px solid #f5bb83;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.mainadd .booklistbtn {
+    margin: 0px auto;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+}

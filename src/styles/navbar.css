@@ -1,0 +1,98 @@
+.mainNav {
+    height: 9vh;
+}
+
+.Navbar {
+    display: flex;
+    background-color: #03343a;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 40px 5px 150px;
+    position: fixed;
+    top: 0;
+    box-shadow: 5px 1px 8px #86898d;
+}
+
+.title {
+    padding: 5px;
+}
+
+.linkgrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar .linkgrp ul .links {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.titlelink {
+    text-decoration: none;
+}
+
+.title h4 {
+    font-family: auto;
+    color: white;
+    font-size: 16px;
+}
+
+.links {
+    text-decoration: none;
+    color: #e0e0e0ba;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.Navbar .linkgrp .links:hover {
+    color: white;
+}
+
+.linkgrp {
+    position: relative;
+}
+
+.linkgrp .active {
+    /* color: #fed04a; */
+    color: white;
+    font-weight: bold;
+}
+
+.Navbar .linkgrp .links::after,
+.Navbar .linkgrp .links::before,
+.Navbar .linkgrp .active::after,
+.Navbar .linkgrp .active::before {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    top: 110%;
+    position: absolute;
+    background-color: rgb(212, 207, 207);
+    transition: 0.5s;
+}
+
+.Navbar .linkgrp .links::after,
+.Navbar .linkgrp .active::after {
+    left: 50%;
+}
+
+
+.Navbar .linkgrp .links::before,
+.Navbar .linkgrp .active::before {
+    right: 50%;
+}
+
+.Navbar .linkgrp .links:hover::before,
+.Navbar .linkgrp .links:hover::after {
+    width: 20%;
+}
+
+.Navbar .linkgrp .active::after,
+.Navbar .linkgrp .active::before {
+    width: 20%;
+}

@@ -1,0 +1,40 @@
+.readbook {
+    height: 85vh;
+}
+.outerbook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.readbook .section {
+    padding: 10px;
+}
+
+.readbook .readbookinfo div {
+    margin-top: 15px;
+}
+
+.readbook .readbookinfo .booktitle {
+    margin-top: 0px;
+}
+
+.readbook .bookcard .bookimage {
+    display: block;
+}
+.rightCards{
+display: flex;
+}
+
+.readbook .readbookinfo {
+    margin-right: 50px;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.readbook .bookcard .bookimage {
+    /* margin-top: 5px; */
+    border: 1px solid rgb(255, 255, 255);
+}
